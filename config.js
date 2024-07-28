@@ -42,7 +42,7 @@ global.disablepm = process.env.DISABLE_PM || "false"
 global.disablegroup = process.env.DISABLE_GROUPS || "false", // disable bot in groups when public mode
 
 global.MsgsInLog = process.env.MSGS_IN_LOG|| "false" // "true"  to see messages , "log" to show logs , "false" to hide logs messages
-global.userImages= process.env.USER_IMAGES || "https://raw.githubusercontent.com/Ayomide202407/Suhail-Md/main/lib/anime-waifu-maid-crying-and-kneeling-oalyg68n72eniw3q.webp" ; // set Image/video urls here
+global.userImages= process.env.USER_IMAGES || "https://raw.githubusercontent.com/Ayomide202407/Suhail-Md/main/lib/anime-waifu-maid-crying-and-kneeling-oalyg68n72eniw3q.webp" // "text" // set Image/video urls here
 global.waPresence= process.env.WAPRESENCE ||  "null" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
 
 
@@ -74,8 +74,8 @@ module.exports = {
   VERSION : process.env.VERSION || "1.3.8",
   caption : global.caption || "" , // ```『 POWERED BY GRANDPA_MD 』```", //*『sᴜʙsᴄʀɪʙᴇ • ᴛᴇᴄʜ』*\n GRANDPA"),
  
-  author : process.env.PACK_AUTHER|| "Grandpa",
-  packname: process.env.PACK_NAME || "It's me bitch",
+  author : process.env.PACK_AUTHER|| "",
+  packname: process.env.PACK_NAME || "",
   botname : process.env.BOT_NAME  || "GRANDPA_MD",
   ownername:process.env.OWNER_NAME|| "GRANDPA",
 
