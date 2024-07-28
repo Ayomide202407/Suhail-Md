@@ -7,7 +7,7 @@ global.audio= "" ;
 global.video= "" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
-global.email ="abilewaayomide@gmail.com"
+global.email ="abilewamichael01@gmail.com"
 global.location="Lagos,Nigeria."
 
 
@@ -42,7 +42,7 @@ global.disablepm = process.env.DISABLE_PM || "false"
 global.disablegroup = process.env.DISABLE_GROUPS || "false", // disable bot in groups when public mode
 
 global.MsgsInLog = process.env.MSGS_IN_LOG|| "false" // "true"  to see messages , "log" to show logs , "false" to hide logs messages
-global.userImages= process.env.USER_IMAGES || "https://raw.githubusercontent.com/Ayomide202407/Suhail-Md/main/lib/anime-waifu-maid-crying-and-kneeling-oalyg68n72eniw3q.webp" // "text" // set Image/video urls here
+global.userImages= process.env.USER_IMAGES || "https://raw.githubusercontent.com/Ayomide202407/Suhail-Md/main/lib/anime-waifu-maid-crying-and-kneeling-oalyg68n72eniw3q.webp" ; // set Image/video urls here
 global.waPresence= process.env.WAPRESENCE ||  "null" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
 
 
