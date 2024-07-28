@@ -7,7 +7,7 @@ global.audio= "" ;
 global.video= "" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
-global.email ="abilewaayomide@gmail.com"
+global.email ="abilewamichael01@gmail.com"
 global.location="Lagos,Nigeria."
 
 
@@ -72,7 +72,7 @@ module.exports = {
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "1.3.8",
-  caption : global.caption || "" , // ```『 POWERED BY GRANDPA_MD 』```", //*『sᴜʙsᴄʀɪʙᴇ • ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption : global.caption || "" , // ```『 POWERED BY GRANDPA_MD 』```", //*『sᴜʙsᴄʀɪʙᴇ • ᴛᴇᴄʜ』*\n GRANDPA"),
  
   author : process.env.PACK_AUTHER|| "",
   packname: process.env.PACK_NAME || "",
