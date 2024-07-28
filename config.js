@@ -17,10 +17,10 @@ global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || ""
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
-global.github=process.env.GITHUB|| "https://github.com/Ayomide202407/Suhail-Md/blob/main/lib/images.jpeg  ";
+global.github=process.env.GITHUB|| "https://github.com/Ayomide202407/Suhail-Md";
 global.gurl  =process.env.GURL  || "https://chat.whatsapp.com/EYHA0EjGsN41mO0psPG5HT";
 global.website=process.env.GURL || "https://chat.whatsapp.com/EYHA0EjGsN41mO0psPG5HT" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://github.com/SuhailTechInfo/Suhail-Md/blob/main/lib/assets/suhail.jpg?raw=true" ; // SET LOGO FOR IMAGE 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://raw.githubusercontent.com/Ayomide202407/Suhail-Md/main/lib/assets/Mikasa.Ackerman.full.3909974.jpg" ; // SET LOGO FOR IMAGE 
 global.caption = process.env.CAPTION || global.caption || "POWERED BY GRANDPA-MD" 
 
 
@@ -42,7 +42,7 @@ global.disablepm = process.env.DISABLE_PM || "false"
 global.disablegroup = process.env.DISABLE_GROUPS || "false", // disable bot in groups when public mode
 
 global.MsgsInLog = process.env.MSGS_IN_LOG|| "false" // "true"  to see messages , "log" to show logs , "false" to hide logs messages
-global.userImages= process.env.USER_IMAGES || "https://github.com/Ayomide202407/Suhail-Md/blob/main/lib/Mikasa.Ackerman.full.3909974.jpg" // "text" // set Image/video urls here
+global.userImages= process.env.USER_IMAGES || "https://raw.githubusercontent.com/Ayomide202407/Suhail-Md/main/lib/assets/images.jpeg" // "text" // set Image/video urls here
 global.waPresence= process.env.WAPRESENCE ||  "null" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
 
 
